@@ -302,6 +302,7 @@
                 <version>${version.maven.surefire}</version>
                 <configuration>
                     <argLine>${argLine}</argLine>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <!-- Required for generation of REST documentation -->
                     <includes>
                         <include>**/*Test.java</include>
